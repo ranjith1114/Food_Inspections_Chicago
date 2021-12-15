@@ -21,7 +21,7 @@
 
 # Feature Selection.
 - I have considered only violations column for predicting the target variable.
-- 
+ 
 # Model Evaluation
 ![](https://github.com/ranjith1114/Food_Inspections_Chicago/blob/main/images/Capture.PNG)
 
