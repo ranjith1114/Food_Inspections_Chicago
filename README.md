@@ -30,9 +30,19 @@
 - Followed by Decision tree model is good with 90% accuracy.  
 - Logistic Regression performance is very low.  
 
+# Challenges
+- As the columns of the dataset is completely categorical values, It is challenging to handle categorical values.  
+- To increase the accuracy of the model, tuning with different parameters is bit difficult.  
+- I have tried to fit the SVM model with different parameters but it is going to infinite loop.  
+
+# Summary
+- In conclusion, there is contradictory evidence about the information value of violation forecasting, but it is obvious that developing a tool to help these businesses better identify and manage their risks is critical.  
+- With the original prediction model and study focusing on how to improve the efficiency of finding critical violations for inspectors, our work would build on the prior findings to further incorporate the business's perspective.  
+
+
+
 # Further Exploration
 - The purpose is to improve the food produced in the Chicago area in terms of quality, health, and efficiency. We want to improve our data analysis by developing a prediction model that combines environmental data to assist us target and correct food inspection violations at their sources.  
-
 - In further, we can fine-tune hyperparameters, add meteorological data, and provide inspectors with the shortest way between sites, allowing them to save time and money by visiting many locations.
 
 # References
@@ -42,3 +52,4 @@
 - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
 - https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 - https://www.kaggle.com/hamditarek/food-inspections-in-chicago-eda-and-modeling#Show-suspected-locations-in-the-map-with-Risks-High-and-Medium
+- https://www.sustainabilist.com/blog/chicago-data-analysis-a-internship-project  
