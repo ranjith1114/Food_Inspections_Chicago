@@ -18,8 +18,12 @@
 - As it is a huge dataset we can drop all the Nan values.
 - If we impute the violation column also it's not useful for better analysis as it consist of text data.
 - We have a huge amount of data for better analysis I am considering only the inspection type with Canvass.
+
 # Feature Selection.
 - I have considered only violations column for predicting the target variable.
+- 
+# Model Evaluation
+![](https://github.com/ranjith1114/Food_Inspections_Chicago/blob/main/images/Capture.PNG)
 
 # Findings
 - Performance of Random Forest is good with 91% accuracy.  
